@@ -1,0 +1,6 @@
+framework module Pods_VH_URL_Shortener {
+  umbrella header "Pods-VH URL-Shortener-umbrella.h"
+
+  export *
+  module * { export * }
+}
