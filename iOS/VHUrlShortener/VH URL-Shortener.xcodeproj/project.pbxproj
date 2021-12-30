@@ -12,6 +12,7 @@
 		F6272339277156E60029CAFF /* VH_URL_Shortener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F627232E277156E60029CAFF /* VH_URL_Shortener.framework */; };
 		F627233E277156E70029CAFF /* VH_URL_ShortenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F627233D277156E70029CAFF /* VH_URL_ShortenerTests.swift */; };
 		F627233F277156E70029CAFF /* VH_URL_Shortener.h in Headers */ = {isa = PBXBuildFile; fileRef = F6272331277156E60029CAFF /* VH_URL_Shortener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F657FB49277B459600A5DA85 /* VHUrlBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F657FB48277B459600A5DA85 /* VHUrlBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		F6272332277156E60029CAFF /* VH_URL_Shortener.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VH_URL_Shortener.docc; sourceTree = "<group>"; };
 		F6272338277156E60029CAFF /* VH URL-ShortenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VH URL-ShortenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F627233D277156E70029CAFF /* VH_URL_ShortenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VH_URL_ShortenerTests.swift; sourceTree = "<group>"; };
+		F657FB48277B459600A5DA85 /* VHUrlBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHUrlBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 				95004AFFD09994A1575DB472 /* Pods-VH URL-Shortener.debug.xcconfig */,
 				6A046EFB071DDFD18B7EDBEB /* Pods-VH URL-Shortener.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,6 +97,7 @@
 		F6272330277156E60029CAFF /* VH URL-Shortener */ = {
 			isa = PBXGroup;
 			children = (
+				F657FB47277B457700A5DA85 /* Models */,
 				F6272331277156E60029CAFF /* VH_URL_Shortener.h */,
 				F6272332277156E60029CAFF /* VH_URL_Shortener.docc */,
 			);
@@ -108,6 +110,14 @@
 				F627233D277156E70029CAFF /* VH_URL_ShortenerTests.swift */,
 			);
 			path = "VH URL-ShortenerTests";
+			sourceTree = "<group>";
+		};
+		F657FB47277B457700A5DA85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F657FB48277B459600A5DA85 /* VHUrlBody.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6272333277156E60029CAFF /* VH_URL_Shortener.docc in Sources */,
+				F657FB49277B459600A5DA85 /* VHUrlBody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +464,7 @@
 		F6272346277156E70029CAFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3NBZS299XA;
@@ -474,6 +486,7 @@
 		F6272347277156E70029CAFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3NBZS299XA;

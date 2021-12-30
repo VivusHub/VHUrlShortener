@@ -1,7 +1,7 @@
-# Url-Shortener
+# Url-Shortener (Under Development)
 
 <p align="center">
-    <img src="readme-resources/VHMessengerKit.png" style="max-height: 61px;" alt="VHMessengerKit for iOS">
+    <img src="readme-resources/VHURLShortener.png" style="max-height: 61px;" alt="VHURLShortener">
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 ---
 
 ## About
-VHURLShortener is a developer-first URL shortener. It's focused on helping startups, indie hackers and more quickly integrate url shorteners in their app without the huge backend. This repo has been documented to the best of our knowledge to help you get the best of our services. If you need further help please visit [sh.vivushub.com](https://sh.vivushub.com) or email us at [support@vivuahub.com](mailto:support@vivushub.cpm)
+VHURLShortener is a developer-first URL shortener. It's focused on helping startups, indie hackers and more quickly integrate url shorteners in their app without the huge backend. This repo has been documented to the best of our knowledge to help you get the best of our services. If you need further help please visit [sh.vivushub.com](https://sh.vivushub.com) or email us at [support@vivuahub.com](mailto:support@vivushub.com)
 
 
 The framework is actively being used and maintained in our family apps (e.g [Vivus](http://vivushub.com/?adFor=social&ref=github)).
@@ -48,7 +48,7 @@ pod 'VHURLShortener', :git => 'https://github.com/VivusHub/VH-URL-Shortener'
 ```Swift
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     VHUrlS.initialize("YOUR_APP_ID", supportedDomains:["yourdomain.com","yourotherdomain.com"], supportedSchemes:["yourscheme"]) { response, error in
-        // response provides a BitlyResponse object which contains the full URL information
+        // response provides a response object which contains the full URL information
         // response includes a status code
         // error provides any errors in retrieving information about the URL
         // Your custom logic goes here...
@@ -59,7 +59,7 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
 
 ```Swift
 VHUrlS.shorten("http://theurlyouwishtoshorten.com") { response, error in
-      // response provides a BitlyResponse object which contains the shortened Bitlink
+      // response provides a response object which contains the shortened Bitlink
       // response includes a status code
       // error provides any errors in retrieving information about the URL
       // Your custom logic goes here...

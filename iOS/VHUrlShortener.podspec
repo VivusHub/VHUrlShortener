@@ -18,17 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This an updated version of VHMessengerKit, a drop-in UI for messenger interfaces on iOS built in Swift. Centred around a single UIViewController, VHMessengerKit is themeable to fit your needs and includes a number of powerful features:
-
- - UICollectionView based with pre-loading and caching of size calculation for bubbles.
- - Auto-growing input view.
- - Multiple cell types: text, large-emoji, image, video, location and gifs.
- - Presentation of SFSafariViewController
- - Built-in, customisable themes.
- - A custom theming system to bring your own UICollectionViewCells, headers, footers, and input views.
- - Avatar support (currently only in the travamigos theme).
-
-The framework is actively being used and maintained in one of our apps, [Vivus](https://www.vivushub.com/vivus/?ref=github).
+VHURLShortener is a developer-first URL shortener. 
+It's focused on helping startups, indie hackers and more quickly integrate url shorteners in their app without the huge backend.
+ This repo has been documented to the best of our knowledge to help you get the best of our services. 
+ If you need further help please visit [sh.vivushub.com](https://sh.vivushub.com)
+  or email us at [support@vivuahub.com](mailto:support@vivushub.com)
                        DESC
 
   s.homepage         = 'https://github.com/VivusHub/VHUrlShortener'
