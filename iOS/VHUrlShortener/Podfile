@@ -8,6 +8,9 @@ target 'VH URL-Shortener' do
 
   # Network handling and data request
   pod 'Alamofire' # Networking
-  pod 'SwiftyJSON'
+  pod 'SwiftyJSON' # Handle Json
 
 end
+
+# Diable cocoapod stats
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'

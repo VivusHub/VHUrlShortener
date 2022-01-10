@@ -1,12 +1,18 @@
 # Url-Shortener (Under Development)
 
 <p align="center">
-    <img src="readme-resources/VHURLShortener.png" style="max-height: 61px;" alt="VHURLShortener">
+    <img src="readme-resources/VHURLSHORTENER.png" style="max-height: 61px;" alt="VHURLShortener">
 </p>
 
 <p align="center">
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-VivusHub%20Custom-yellow.svg" alt="License: Vivus Hub">
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img src="https://img.shields.io/badge/Swift%20Custom-red.svg" alt="Vivus Hub Url Shortener Swift">
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+        <img src="https://img.shields.io/badge/Android%20Custom-blue.svg" alt="License: Vivus Hub Android">
     </a>
 </p>
 
@@ -74,7 +80,6 @@ Using npm:
 ```bash
 npm install react-native-tableview --save
 ```
-
 
 ### Manual
 Drag the contents of the `VHUrlShortener` folder into your Android Project.
