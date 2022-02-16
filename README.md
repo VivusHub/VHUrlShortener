@@ -1,7 +1,7 @@
 # Url-Shortener (Under Development)
 
 <p align="center">
-    <img src="readme-resources/VHURLSHORTENER.png" style="max-height: 61px;" alt="VHURLShortener">
+    <img src="readme-resources/VHURLSHORTENER.png" style="max-height: 61px; border-radius: 10%;" alt="VHURLShortener">
 </p>
 
 <p align="center">
@@ -19,37 +19,48 @@
 ---
 
 ## About
-VHURLShortener is a developer-first URL shortener. It's focused on helping startups, indie hackers and more quickly integrate url shorteners in their app without the huge backend. This repo has been documented to the best of our knowledge to help you get the best of our services. If you need further help please visit [sh.vivushub.com](https://sh.vivushub.com) or email us at [support@vivuahub.com](mailto:support@vivushub.com)
+VHURLShortener is a developer-first URL shortener. It's focused on quick integration, scalability and customisation. This repo has been documented to the best of our knowledge to help you get the best of our services. If you need further help please visit [sh.vivushub.com](https://sh.vivushub.com) or email us at [support@vivuahub.com](mailto:support@vivushub.com)
 
 
-The framework is actively being used and maintained in our family apps (e.g [Vivus](http://vivushub.com/?adFor=social&ref=github)).
+The framework is actively being used and maintained in one of our family apps (e.g [Vivus](http://vivushub.com/?adFor=social&ref=github)).
 
 ## Documentation
 
 - [Getting Started](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
+- [Database Configuration](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
 - [iOS](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
     - [Installation]()
 - [Android](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
 - [Web](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
 - [License](https://github.com/VivusHub/VHMessengerKit/wiki/Getting-Started)
 
+## Getting Started
+
+## Database Configuration
+
 ## iOS
 
 ### Installation
 
-VHUrlShortener requires Swift 4.2 and iOS 11.0 or later.
-
-### Manual
-
-Drag the contents of the `VHUrlShortener` folder into your Xcode Project.
+VHUrlShortener requires Swift 4.2 and iOS 11.0 or later. The best way to install `VHUrlShortener` is via cocoapods.  
 
 ### CocoaPods
 
-Add the following to your project's Podfile.
+To add the project via cocapods, add the following to your project's Podfile.
 
 ```ruby
 pod 'VHURLShortener', :git => 'https://github.com/VivusHub/VH-URL-Shortener'
 ```
+
+Then in your terminal, navigate to your project folder and run:
+```ssh
+pod install
+```
+
+### Manual
+
+To add the project manually, drag the contents of the `iOS\VHUrlShortener` into your Xcode Project.
+
 
 ```Swift
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -91,7 +102,7 @@ Drag the contents of the `VHUrlShortener` folder into your Android Project.
 The Graph API is HTTP-based, so it works with any languages that has an HTTP library such as cURL and more. An additional benefit is that you can use the Graph API library directly in your browser. Please note, you may need to validate your domain to enable url request on your website.
 
 ### Creating Url
-VHUrlShortener gives you high flexiblity when creating and updating your url. To create, modify or delete your url shortener you need the following arguments:
+VHUrlShortener gives you a high degree of flexiblity when creating and updating your url. To create, modify or delete your url shortener you need the following arguments:
 * `urlTo` [String] -
 ```php
 curl -i -X GET \
