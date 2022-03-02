@@ -1,0 +1,6 @@
+framework module Pods_Vivus_Test_Url_Shotener {
+  umbrella header "Pods-Vivus Test Url Shotener-umbrella.h"
+
+  export *
+  module * { export * }
+}

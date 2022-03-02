@@ -1,7 +1,7 @@
 # Url-Shortener (Under Development)
 
 <p align="center">
-    <img src="readme-resources/VHURLSHORTENER.png" style="max-height: 61px; border-radius: 10%;" alt="VHURLShortener">
+    <img src="https://github.com/VivusHub/VHUrlShortener/raw/main/readme-resources/VHURLSHORTENER.png" style="max-height: 61px; border-radius: 10%;" alt="VHURLShortener">
 </p>
 
 <p align="center">

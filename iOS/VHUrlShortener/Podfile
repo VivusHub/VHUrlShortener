@@ -7,8 +7,6 @@ target 'VH URL-Shortener' do
   use_frameworks!
 
   # Network handling and data request
-  pod 'Alamofire' # Networking
-  pod 'SwiftyJSON' # Handle Json
 
 end
 

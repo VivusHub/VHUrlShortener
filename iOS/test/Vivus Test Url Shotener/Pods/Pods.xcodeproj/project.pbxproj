@@ -7,37 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3556A5F5BACCD4EDB204305A4969416E /* Pods-VH URL-Shortener-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9407F3737B56394326485B942DA28AF /* Pods-VH URL-Shortener-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EDA8CABC581ACF645B7DFA97CB500B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F4FAB00A247755BFEB9D2B247EB4C722 /* Pods-VH URL-Shortener-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9350C0C6965F3F0B7E8D649E7F532AAA /* Pods-VH URL-Shortener-dummy.m */; };
+		2EAC703AEB8BD0AC4F8ADA78FEB87F1D /* Pods-Vivus Test Url Shotener-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAED4A79C47E2FC5AD1829CCB0C67B4 /* Pods-Vivus Test Url Shotener-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3CA0770966B74FA51857259AB09E08 /* Pods-Vivus Test Url Shotener-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADE66A0664BD95BDB226B0110C8A33C /* Pods-Vivus Test Url Shotener-dummy.m */; };
+		D3CECAEDF365DA33B6FCCF47AB9AA4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		246870641F9682B585E93F47ACDB89EE /* Pods-VH URL-Shortener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VH URL-Shortener.debug.xcconfig"; sourceTree = "<group>"; };
-		593CC1F32C29A2631E46887DF2C12B35 /* Pods-VH URL-Shortener-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VH URL-Shortener-Info.plist"; sourceTree = "<group>"; };
-		63C67B868D654A3FFAE3927C21D568A9 /* Pods-VH URL-Shortener */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VH URL-Shortener"; path = Pods_VH_URL_Shortener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2600F1C02237AF2BFAB86A4097CD74DE /* Pods-Vivus Test Url Shotener-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vivus Test Url Shotener-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DAED4A79C47E2FC5AD1829CCB0C67B4 /* Pods-Vivus Test Url Shotener-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vivus Test Url Shotener-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		91437AB77B365D051828F8D93E975A4B /* Pods-VH URL-Shortener-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VH URL-Shortener-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9350C0C6965F3F0B7E8D649E7F532AAA /* Pods-VH URL-Shortener-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VH URL-Shortener-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9407F3737B56394326485B942DA28AF /* Pods-VH URL-Shortener-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VH URL-Shortener-umbrella.h"; sourceTree = "<group>"; };
-		BC47F928BE04447DCCE87040E82D70BD /* Pods-VH URL-Shortener-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VH URL-Shortener-acknowledgements.plist"; sourceTree = "<group>"; };
-		C23B30B17315548E6EE6A717A2003C4A /* Pods-VH URL-Shortener.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VH URL-Shortener.modulemap"; sourceTree = "<group>"; };
-		DB3938B0E21B2A19C11808B7B61CE7B4 /* Pods-VH URL-Shortener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VH URL-Shortener.release.xcconfig"; sourceTree = "<group>"; };
+		A77B158FC5E17C2762DECA4AF2A9B1BF /* Pods-Vivus Test Url Shotener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vivus Test Url Shotener.release.xcconfig"; sourceTree = "<group>"; };
+		C69801CB797F7681D6979697DCF71409 /* Pods-Vivus Test Url Shotener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vivus Test Url Shotener.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D62F26A4E629434D68D9C242576EB6 /* Pods-Vivus Test Url Shotener.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vivus Test Url Shotener.modulemap"; sourceTree = "<group>"; };
+		EC2554B53232ACA231C0EB9AC581E7F7 /* Pods-Vivus Test Url Shotener-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vivus Test Url Shotener-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFB184614FE65BD5756A8B1B5B1361CE /* Pods-Vivus Test Url Shotener-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vivus Test Url Shotener-Info.plist"; sourceTree = "<group>"; };
+		FA5A7386B9F5B4CE4209A3CA0A4A0973 /* Pods-Vivus Test Url Shotener */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vivus Test Url Shotener"; path = Pods_Vivus_Test_Url_Shotener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE66A0664BD95BDB226B0110C8A33C /* Pods-Vivus Test Url Shotener-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vivus Test Url Shotener-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A84ECFF368AAD19D9FAC17B45A0D155 /* Frameworks */ = {
+		159C48103CC22C94058B1A9B347D98B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EDA8CABC581ACF645B7DFA97CB500B4 /* Foundation.framework in Frameworks */,
+				D3CECAEDF365DA33B6FCCF47AB9AA4C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25ECA4BA87A6D7BC3280DD4A61BAF526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A7386B9F5B4CE4209A3CA0A4A0973 /* Pods-Vivus Test Url Shotener */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -46,20 +54,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		71C7D07A48D0D7B5C20AD3F257B14B86 /* Products */ = {
+		ADB83F343029381490C59675F4C6E6D3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63C67B868D654A3FFAE3927C21D568A9 /* Pods-VH URL-Shortener */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		95103502B73F58B6E30EAC5D1C30521C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F16E40C3B8EE8E6D9342BBE081D34E7F /* Pods-VH URL-Shortener */,
+				CDFEC9D7DDEB805A28AA6934FFF92341 /* Pods-Vivus Test Url Shotener */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDFEC9D7DDEB805A28AA6934FFF92341 /* Pods-Vivus Test Url Shotener */ = {
+			isa = PBXGroup;
+			children = (
+				E8D62F26A4E629434D68D9C242576EB6 /* Pods-Vivus Test Url Shotener.modulemap */,
+				EC2554B53232ACA231C0EB9AC581E7F7 /* Pods-Vivus Test Url Shotener-acknowledgements.markdown */,
+				2600F1C02237AF2BFAB86A4097CD74DE /* Pods-Vivus Test Url Shotener-acknowledgements.plist */,
+				FADE66A0664BD95BDB226B0110C8A33C /* Pods-Vivus Test Url Shotener-dummy.m */,
+				EFB184614FE65BD5756A8B1B5B1361CE /* Pods-Vivus Test Url Shotener-Info.plist */,
+				4DAED4A79C47E2FC5AD1829CCB0C67B4 /* Pods-Vivus Test Url Shotener-umbrella.h */,
+				C69801CB797F7681D6979697DCF71409 /* Pods-Vivus Test Url Shotener.debug.xcconfig */,
+				A77B158FC5E17C2762DECA4AF2A9B1BF /* Pods-Vivus Test Url Shotener.release.xcconfig */,
+			);
+			name = "Pods-Vivus Test Url Shotener";
+			path = "Target Support Files/Pods-Vivus Test Url Shotener";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -67,8 +83,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				71C7D07A48D0D7B5C20AD3F257B14B86 /* Products */,
-				95103502B73F58B6E30EAC5D1C30521C /* Targets Support Files */,
+				25ECA4BA87A6D7BC3280DD4A61BAF526 /* Products */,
+				ADB83F343029381490C59675F4C6E6D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,52 +96,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F16E40C3B8EE8E6D9342BBE081D34E7F /* Pods-VH URL-Shortener */ = {
-			isa = PBXGroup;
-			children = (
-				C23B30B17315548E6EE6A717A2003C4A /* Pods-VH URL-Shortener.modulemap */,
-				91437AB77B365D051828F8D93E975A4B /* Pods-VH URL-Shortener-acknowledgements.markdown */,
-				BC47F928BE04447DCCE87040E82D70BD /* Pods-VH URL-Shortener-acknowledgements.plist */,
-				9350C0C6965F3F0B7E8D649E7F532AAA /* Pods-VH URL-Shortener-dummy.m */,
-				593CC1F32C29A2631E46887DF2C12B35 /* Pods-VH URL-Shortener-Info.plist */,
-				A9407F3737B56394326485B942DA28AF /* Pods-VH URL-Shortener-umbrella.h */,
-				246870641F9682B585E93F47ACDB89EE /* Pods-VH URL-Shortener.debug.xcconfig */,
-				DB3938B0E21B2A19C11808B7B61CE7B4 /* Pods-VH URL-Shortener.release.xcconfig */,
-			);
-			name = "Pods-VH URL-Shortener";
-			path = "Target Support Files/Pods-VH URL-Shortener";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EF7D66588C767000C822A3489CA1733F /* Headers */ = {
+		2D6FE55EB62D214F4C54CDAC2D61F2EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3556A5F5BACCD4EDB204305A4969416E /* Pods-VH URL-Shortener-umbrella.h in Headers */,
+				2EAC703AEB8BD0AC4F8ADA78FEB87F1D /* Pods-Vivus Test Url Shotener-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A8A9018442E7736A3DD3CBA92565138B /* Pods-VH URL-Shortener */ = {
+		92E929637C217F9C8C714FC6B45EBCCC /* Pods-Vivus Test Url Shotener */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BCCADB770E86CC4A92620347688B4CD /* Build configuration list for PBXNativeTarget "Pods-VH URL-Shortener" */;
+			buildConfigurationList = FC2F803DB0322A7B7EBF4336CB91B05E /* Build configuration list for PBXNativeTarget "Pods-Vivus Test Url Shotener" */;
 			buildPhases = (
-				EF7D66588C767000C822A3489CA1733F /* Headers */,
-				2F5C654BC47AFA50B78DBAB04E5886D6 /* Sources */,
-				4A84ECFF368AAD19D9FAC17B45A0D155 /* Frameworks */,
-				BD2EEA95DBD8A1C72FFD51BFAA550F0E /* Resources */,
+				2D6FE55EB62D214F4C54CDAC2D61F2EA /* Headers */,
+				56D063C96EA6C287E382631166E38BFF /* Sources */,
+				159C48103CC22C94058B1A9B347D98B7 /* Frameworks */,
+				324E14830EE42B40A9518128153DF733 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-VH URL-Shortener";
-			productName = Pods_VH_URL_Shortener;
-			productReference = 63C67B868D654A3FFAE3927C21D568A9 /* Pods-VH URL-Shortener */;
+			name = "Pods-Vivus Test Url Shotener";
+			productName = Pods_Vivus_Test_Url_Shotener;
+			productReference = FA5A7386B9F5B4CE4209A3CA0A4A0973 /* Pods-Vivus Test Url Shotener */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,17 +146,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 71C7D07A48D0D7B5C20AD3F257B14B86 /* Products */;
+			productRefGroup = 25ECA4BA87A6D7BC3280DD4A61BAF526 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8A9018442E7736A3DD3CBA92565138B /* Pods-VH URL-Shortener */,
+				92E929637C217F9C8C714FC6B45EBCCC /* Pods-Vivus Test Url Shotener */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BD2EEA95DBD8A1C72FFD51BFAA550F0E /* Resources */ = {
+		324E14830EE42B40A9518128153DF733 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,18 +166,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F5C654BC47AFA50B78DBAB04E5886D6 /* Sources */ = {
+		56D063C96EA6C287E382631166E38BFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FAB00A247755BFEB9D2B247EB4C722 /* Pods-VH URL-Shortener-dummy.m in Sources */,
+				8A3CA0770966B74FA51857259AB09E08 /* Pods-Vivus Test Url Shotener-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+		61599DF705312DF113CC17982FDA3A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77B158FC5E17C2762DECA4AF2A9B1BF /* Pods-Vivus Test Url Shotener.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vivus Test Url Shotener/Pods-Vivus Test Url Shotener-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vivus Test Url Shotener/Pods-Vivus Test Url Shotener.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,45 +281,7 @@
 			};
 			name = Debug;
 		};
-		4A9DABBA79D8CA3EACF52283C1CB777C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB3938B0E21B2A19C11808B7B61CE7B4 /* Pods-VH URL-Shortener.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VH URL-Shortener/Pods-VH URL-Shortener-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VH URL-Shortener/Pods-VH URL-Shortener.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -343,9 +343,9 @@
 			};
 			name = Release;
 		};
-		A6D080FC38BCDD7CD43A73659F9F1C5A /* Debug */ = {
+		EF37D4E2EB4F95AEFD91EBB5058B4ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 246870641F9682B585E93F47ACDB89EE /* Pods-VH URL-Shortener.debug.xcconfig */;
+			baseConfigurationReference = C69801CB797F7681D6979697DCF71409 /* Pods-Vivus Test Url Shotener.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -357,16 +357,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VH URL-Shortener/Pods-VH URL-Shortener-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vivus Test Url Shotener/Pods-Vivus Test Url Shotener-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VH URL-Shortener/Pods-VH URL-Shortener.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Vivus Test Url Shotener/Pods-Vivus Test Url Shotener.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -386,17 +386,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
-				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BCCADB770E86CC4A92620347688B4CD /* Build configuration list for PBXNativeTarget "Pods-VH URL-Shortener" */ = {
+		FC2F803DB0322A7B7EBF4336CB91B05E /* Build configuration list for PBXNativeTarget "Pods-Vivus Test Url Shotener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D080FC38BCDD7CD43A73659F9F1C5A /* Debug */,
-				4A9DABBA79D8CA3EACF52283C1CB777C /* Release */,
+				EF37D4E2EB4F95AEFD91EBB5058B4ABB /* Debug */,
+				61599DF705312DF113CC17982FDA3A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
